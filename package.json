@@ -2,13 +2,16 @@
   "name": "hairday",
   "description": "Aplicação web para agendamento de corte de cabelo.",
   "author": "Lucas Yuji",
-
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack server",
+    "server": "json-server --watch server.json --port 3333"
   },
-
   "dependencies": {
     "json-server": "^1.0.0-alpha.21"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
