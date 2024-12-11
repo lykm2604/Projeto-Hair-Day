@@ -11,10 +11,8 @@ const inputToday = dayjs(new Date()).format("YYYY-MM-DD")
 
 selectedDate.value = inputToday
 selectedDate.min = inputToday
-
+ 
 form.onsubmit = (event) => {
     //previne o comportamento padrão de carregar a página
     event.preventDefault()
-
-    console.log("Enviado!")
 }
