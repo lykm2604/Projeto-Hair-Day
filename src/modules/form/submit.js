@@ -7,12 +7,9 @@ const selectedDate = document.getElementById("date")
 
 const inputToday = dayjs(new Date()).format("YYYY-MM-DD")
 
-//carrega a data atual
+//carrega a data atual define a data mínima como data atual
 
 selectedDate.value = inputToday
-
-//define a data mínima como data atual
-
 selectedDate.min = inputToday
 
 form.onsubmit = (event) => {
