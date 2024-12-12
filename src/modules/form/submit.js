@@ -42,7 +42,7 @@ form.onsubmit = async (event) => {
         const when = dayjs(selectedDate.value).add(hour, "hour")
 
         //gera um id
-        const id = new Date().getTime()
+        const id = new Date().getTime().toString()
         await scheduleNew({
             id,
             name,
