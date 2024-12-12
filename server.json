@@ -1,3 +1,9 @@
 {
-    "schedules": []
+  "schedules": [
+    {
+      "id": 1734029828068,
+      "name": "Lucas Yuji",
+      "when": "2024-12-12T20:00:00.000Z"
+    }
+  ]
 }
